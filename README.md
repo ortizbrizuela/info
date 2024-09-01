@@ -1,4 +1,4 @@
-# Welcome to My Personal Website!
+# Welcome!
 
 My name is **Edgar Ortiz-Brizuela**, and I am a Ph.D. candidate in Epidemiology at McGill University. Here, you'll find a brief overview of my background 📚, links to my work ✏️, and ways to connect with me ✉️. I am always open to collaboration!
 
