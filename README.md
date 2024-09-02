@@ -1,3 +1,4 @@
+<img src="title.jpg" width="1000"/>
 
 # Welcome!
 
@@ -25,5 +26,4 @@ I am a medical doctor, having graduated from the [Facultad de Medicina UASLP](ht
 Feel free to [reach out for collaborations](mailto:edgar.ortiz-brizuela@mail.mcgill.ca).
 
 ---
-<img src="title.jpg" width="1000"/>
 
