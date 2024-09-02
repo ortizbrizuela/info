@@ -1,4 +1,4 @@
-<img src="title.jpeg" width="500"/>
+<img src="title.jpg" width="500"/>
 
 # Welcome!
 
