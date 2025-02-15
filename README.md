@@ -30,7 +30,7 @@
     }
 
     .sidebar img {
-      width: 180px; /* Adjust profile image size */
+      width: 180px; 
       height: auto;
       border-radius: 50%;
       border: 3px solid white;
@@ -66,7 +66,7 @@
 
     /* Language Toggle Buttons */
     .language-toggle {
-      text-align: right;
+      text-align: center;
       margin-bottom: 20px;
     }
 
