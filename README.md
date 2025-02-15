@@ -64,7 +64,7 @@
 
     /* Language Toggle Buttons */
     .language-toggle {
-      text-align: right;
+      text-align: center;
       margin-bottom: 20px;
     }
 
