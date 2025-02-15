@@ -15,7 +15,7 @@
 
     /* Floating Sidebar */
     .sidebar {
-      width: 300px;
+      width: 250px;
       background: rgba(17, 17, 17, 0.8); /* Semi-transparent dark background */
       color: white;
       position: fixed;
@@ -145,6 +145,22 @@
         <li><a href="https://scholar.google.com/citations?hl=es&user=rYaloZcAAAAJ">Google Scholar</a></li>
         <li><a href="https://github.com/ortizbrizuela">GitHub</a></li>
         <li><a href="https://orcid.org/0000-0001-7169-8459">ORCID profile</a></li>
+      </ul>
+    </div>
+
+    <!-- Spanish Version -->
+    <div class="content hidden" id="content-es">
+      <img src="title.jpg" width="1000" alt="Imagen de Título"/>
+
+      <h1>¡Bienvenido a mi sitio personal de información!</h1>
+
+      <p>Mi nombre es <strong>Edgar Ortiz-Brizuela</strong>, y soy candidato a doctorado (Ph.D.) en Epidemiología en la Universidad McGill. Aquí encontrarás una breve descripción de mi formación 📚, enlaces a mi trabajo ✏️ y formas de contactarme ✉️. ¡Siempre estoy abierto a colaborar!</p>
+
+      <h2>✏️ Enlaces a mi Trabajo</h2>
+      <ul>
+        <li><a href="https://scholar.google.com/citations?hl=es&user=rYaloZcAAAAJ">Google Scholar</a></li>
+        <li><a href="https://github.com/ortizbrizuela">GitHub</a></li>
+        <li><a href="https://orcid.org/0000-0001-7169-8459">Perfil ORCID</a></li>
       </ul>
     </div>
 
