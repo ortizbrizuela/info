@@ -15,7 +15,7 @@
 
     /* Floating Sidebar */
     .sidebar {
-      width: 250px;
+      width: 300px;
       background: rgba(17, 17, 17, 0.8); /* Semi-transparent dark background */
       color: white;
       position: fixed;
