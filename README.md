@@ -119,7 +119,6 @@
   <div class="sidebar">
     <img src="profile.jpg" alt="Edgar Ortiz-Brizuela"> 
     <h2>Edgar Ortiz-Brizuela</h2>
-    <p>Ph.D. Candidate in Epidemiology</p>
   </div>
 
   <!-- Main Content -->
