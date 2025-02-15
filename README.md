@@ -5,7 +5,7 @@
   <title>Edgar Ortiz-Brizuela</title>
   <style>
     body {
-      background-color: rgba(37, 105, 160, 0.53); /* Azul opaco */
+      background-color: rgba(0, 0, 0, 1); /* negro */
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 20px;
