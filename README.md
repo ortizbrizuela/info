@@ -140,4 +140,125 @@
       <a href="https://github.com/ortizbrizuela/info/blob/main/docs/CV_EOB_2024.pdf">here</a>.
     </p>
 
-    <h2>🖥️ Res
+    <h2>🖥️ Research Interests</h2>
+    <ul>
+      <li><strong>Infectious diseases:</strong>
+        <ul>
+          <li>Vaccinology</li>
+          <li>Antimicrobial resistance</li>
+          <li>Tuberculosis</li>
+        </ul>
+      </li>
+      <li><strong>Epidemiology:</strong>
+        <ul>
+          <li>Causal inference</li>
+          <li>Descriptive epidemiology</li>
+          <li>Big data and AI</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>✏️ Links to My Work</h2>
+    <ul>
+      <li><a href="https://scholar.google.com/citations?hl=es&user=rYaloZcAAAAJ">Google Scholar</a></li>
+      <li><a href="https://github.com/ortizbrizuela">GitHub</a></li>
+      <li><a href="https://orcid.org/my-orcid?orcid=0000-0001-7169-8459">ORCID profile</a></li>
+    </ul>
+
+    <h2>✉️ Connect with Me</h2>
+    <p class="contact-links">
+      <a href="mailto:edgar.ortiz-brizuela@mail.mcgill.ca" title="Email"><i class="fas fa-envelope"></i>Email</a>
+      <!-- Replace with your actual Twitter/LinkedIn if you wish -->
+      <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i>Twitter</a>
+      <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i>LinkedIn</a>
+    </p>
+
+    <hr>
+  </div>
+
+  <!-- SPANISH CONTENT -->
+  <div class="content hidden" id="content-es">
+    <img src="title.jpg" alt="Imagen de Título">
+
+    <h1>¡Bienvenido a mi sitio personal!</h1>
+    <p>
+      Mi nombre es <strong>Edgar Ortiz-Brizuela</strong>, y soy candidato a doctorado (Ph.D.) en Epidemiología en la Universidad McGill. Aquí encontrarás una breve descripción de mi formación 📚, enlaces a mi trabajo ✏️ y formas de contactarme ✉️. ¡Siempre estoy abierto a colaborar!
+    </p>
+
+    <h2>📚 Formación</h2>
+    <p>
+      Soy médico, graduado de la
+      <a href="https://www.medicina.uaslp.mx/">Facultad de Medicina UASLP</a>.
+      Me especialicé en Medicina Interna y Enfermedades Infecciosas, ambas en el
+      <a href="http://www.incmnsz.mx/">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán</a>
+      en la Ciudad de México. Mi pasión por la investigación me llevó a cursar la Maestría en Epidemiología en el
+      <a href="https://www.mcgill.ca/epi-biostat-occh/">Departamento de Epidemiología, Bioestadística y Salud Ocupacional de la Universidad McGill</a>,
+      y una Maestría en Ciencias Médicas en la
+      <a href="http://www.facmed.unam.mx">UNAM</a>, México. Actualmente, estoy cursando mi doctorado en Epidemiología en McGill.
+      Puedes ver un CV más completo
+      <a href="https://github.com/ortizbrizuela/info/blob/main/docs/CV_EOB_2024.pdf">aquí</a>.
+    </p>
+
+    <h2>🖥️ Áreas de Investigación</h2>
+    <ul>
+      <li><strong>Enfermedades infecciosas:</strong>
+        <ul>
+          <li>Vacunología</li>
+          <li>Resistencia antimicrobiana</li>
+          <li>Tuberculosis</li>
+        </ul>
+      </li>
+      <li><strong>Epidemiología:</strong>
+        <ul>
+          <li>Inferencia causal</li>
+          <li>Epidemiología descriptiva</li>
+          <li>Big data e IA</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>✏️ Enlaces a mi Trabajo</h2>
+    <ul>
+      <li><a href="https://scholar.google.com/citations?hl=es&user=rYaloZcAAAAJ">Google Scholar</a></li>
+      <li><a href="https://github.com/ortizbrizuela">GitHub</a></li>
+      <li><a href="https://orcid.org/my-orcid?orcid=0000-0001-7169-8459">Perfil ORCID</a></li>
+    </ul>
+
+    <h2>✉️ Contáctame</h2>
+    <p class="contact-links">
+      <a href="mailto:edgar.ortiz-brizuela@mail.mcgill.ca" title="Correo electrónico"><i class="fas fa-envelope"></i>Correo</a>
+      <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i>Twitter</a>
+      <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i>LinkedIn</a>
+    </p>
+
+    <hr>
+  </div>
+
+  <!-- JavaScript para alternar idiomas con efecto fade -->
+  <script>
+    const buttonEn = document.getElementById('button-en');
+    const buttonEs = document.getElementById('button-es');
+    const contentEn = document.getElementById('content-en');
+    const contentEs = document.getElementById('content-es');
+
+    function toggleLanguage(lang) {
+      if (lang === 'en') {
+        contentEn.classList.add('visible');
+        contentEn.classList.remove('hidden');
+        
+        contentEs.classList.add('hidden');
+        contentEs.classList.remove('visible');
+      } else {
+        contentEs.classList.add('visible');
+        contentEs.classList.remove('hidden');
+        
+        contentEn.classList.add('hidden');
+        contentEn.classList.remove('visible');
+      }
+    }
+
+    buttonEn.addEventListener('click', () => toggleLanguage('en'));
+    buttonEs.addEventListener('click', () => toggleLanguage('es'));
+  </script>
+</body>
+</html>
