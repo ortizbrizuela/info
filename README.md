@@ -152,18 +152,42 @@
     <div class="content hidden" id="content-es">
       <img src="title.jpg" width="1000" alt="Imagen de Título"/>
 
-      <h1>¡Bienvenido a mi sitio personal de información!</h1>
+    <h1>¡Bienvenido a mi sitio personal de información!</h1>
 
-      <p>Mi nombre es <strong>Edgar Ortiz-Brizuela</strong>, y soy candidato a doctorado (Ph.D.) en Epidemiología en la Universidad McGill. Aquí encontrarás una breve descripción de mi formación 📚, enlaces a mi trabajo ✏️ y formas de contactarme ✉️. ¡Siempre estoy abierto a colaborar!</p>
+    <p>Mi nombre es <strong>Edgar Ortiz-Brizuela</strong>, y soy candidato a doctorado (Ph.D.) en Epidemiología en la Universidad McGill. Aquí encontrarás una breve descripción de mi formación 📚, enlaces a mi trabajo ✏️ y formas de contactarme ✉️. ¡Siempre estoy abierto a colaborar!</p>
 
-      <h2>✏️ Enlaces a mi Trabajo</h2>
-      <ul>
-        <li><a href="https://scholar.google.com/citations?hl=es&user=rYaloZcAAAAJ">Google Scholar</a></li>
-        <li><a href="https://github.com/ortizbrizuela">GitHub</a></li>
-        <li><a href="https://orcid.org/0000-0001-7169-8459">Perfil ORCID</a></li>
-      </ul>
-    </div>
+    <h2>📚 Formación</h2>
+    <p>Soy médico, graduado de la <a href="https://www.medicina.uaslp.mx/">Facultad de Medicina UASLP</a>. Me especialicé en Medicina Interna y Enfermedades Infecciosas, ambas en el <a href="http://www.incmnsz.mx/">Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán</a> en Ciudad de México. Mi pasión por la investigación me llevó a cursar la Maestría en Epidemiología en el <a href="https://www.mcgill.ca/epi-biostat-occh/">Departamento de Epidemiología, Bioestadística y Salud Ocupacional de la Universidad McGill</a>, y una Maestría en Ciencias Médicas en la <a href="http://www.facmed.unam.mx">UNAM</a>, México. Actualmente, estoy cursando mi doctorado en Epidemiología en McGill. Puedes ver un CV más completo <a href="https://github.com/ortizbrizuela/info/blob/main/docs/CV_EOB_2024.pdf">aquí</a>.</p>
 
+    <h2>🖥️ Áreas de Investigación</h2>
+    <ul>
+      <li><strong>Enfermedades infecciosas:</strong>
+        <ul>
+          <li>Vacunología.</li>
+          <li>Resistencia antimicrobiana.</li>
+          <li>Tuberculosis.</li>
+        </ul>
+      </li>
+      <li><strong>Epidemiología:</strong>
+        <ul>
+          <li>Inferencia causal.</li>
+          <li>Epidemiología descriptiva.</li>
+          <li>Big data e Inteligencia Artificial.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>✏️ Enlaces a mi Trabajo</h2>
+    <ul>
+      <li><a href="https://scholar.google.com/citations?hl=es&user=rYaloZcAAAAJ">Google Scholar</a></li>
+      <li><a href="https://github.com/ortizbrizuela">GitHub</a></li>
+      <li><a href="https://orcid.org/my-orcid?orcid=0000-0001-7169-8459">Perfil ORCID</a></li>
+    </ul>
+
+    <h2>✉️ Contáctame</h2>
+    <p>No dudes en <a href="mailto:edgar.ortiz-brizuela@mail.mcgill.ca">ponerte en contacto</a> para colaboraciones.</p>
+
+    <hr>
   </div>
 
   <script>
