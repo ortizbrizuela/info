@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,7 +25,7 @@
     <div class="content">
         <img src="title.jpg" width="1000"/>
 
-        <h1>Welcome!</h1>
+        <h1>Welcome to my personal info website!</h1>
 
         <p>My name is <strong>Edgar Ortiz-Brizuela</strong>, and I am a Ph.D. candidate in Epidemiology at McGill University. Here, you'll find a brief overview of my background 📚, links to my work ✏️, and ways to connect with me ✉️. I am always open to collaboration!</p>
 
