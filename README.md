@@ -15,7 +15,7 @@
 
     /* Floating Sidebar */
     .sidebar {
-      width: 250px;
+      width: 300px;
       background: rgba(17, 17, 17, 0.8); /* Semi-transparent dark background */
       color: white;
       position: fixed;
@@ -118,7 +118,6 @@
   <div class="sidebar">
     <img src="profile.jpg" alt="Edgar Ortiz-Brizuela">
     <h2>Edgar Ortiz-Brizuela</h2>
-    <p>Ph.D. Candidate in Epidemiology</p>
   </div>
 
   <!-- Main Content -->
