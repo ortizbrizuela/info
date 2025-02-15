@@ -77,7 +77,7 @@
     <ul>
       <li><a href="https://scholar.google.com/citations?hl=es&user=rYaloZcAAAAJ">Google Scholar</a></li>
       <li><a href="https://github.com/ortizbrizuela">GitHub</a></li>
-      <li><a href="https://orcid.org/my-orcid?orcid=0000-0001-7169-8459">ORCID profile</a></li>
+      <li><a href="https://orcid.org/0000-0001-7169-8459">ORCID profile</a></li>
     </ul>
 
     <h2>✉️ Connect with Me</h2>
@@ -119,7 +119,7 @@
     <ul>
       <li><a href="https://scholar.google.com/citations?hl=es&user=rYaloZcAAAAJ">Google Scholar</a></li>
       <li><a href="https://github.com/ortizbrizuela">GitHub</a></li>
-      <li><a href="https://orcid.org/my-orcid?orcid=0000-0001-7169-8459">Perfil ORCID</a></li>
+      <li><a href="https://orcid.org/0000-0001-7169-8459">Perfil ORCID</a></li>
     </ul>
 
     <h2>✉️ Contáctame</h2>
