@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -6,7 +5,7 @@
   <title>Edgar Ortiz-Brizuela</title>
   <style>
     body {
-      background-color: rgba(0, 0, 255, 0.2); /* Opaque blue */
+      background-color: rgba(211, 211, 211, 0.8); /* Light gray with 80% opacity */
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 20px;
@@ -141,4 +140,10 @@
     });
 
     buttonEs.addEventListener('click', () => {
-      contentEs.classList
+      contentEs.classList.remove('hidden');
+      contentEn.classList.add('hidden');
+    });
+  </script>
+
+</body>
+</html>
