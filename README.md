@@ -13,46 +13,44 @@
       display: flex;
     }
 
-    /* Sidebar with fixed position */
+    /* Floating Sidebar */
     .sidebar {
       width: 250px;
-      height: 100vh; /* Full height */
-      background: #111; /* Dark sidebar */
+      background: rgba(17, 17, 17, 0.8); /* Semi-transparent dark background */
       color: white;
       position: fixed;
-      top: 0;
-      left: 0;
+      top: 50%;
+      left: 20px; /* Slight offset from the left */
+      transform: translateY(-50%); /* Center vertically */
       display: flex;
       flex-direction: column;
       align-items: center;
       padding: 20px;
       text-align: center;
+      border-radius: 15px; /* Rounded corners */
+      box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2); /* Soft glow effect */
+      transition: 0.3s ease-in-out;
     }
 
+    /* Sidebar Image */
     .sidebar img {
-      width: 180px; 
+      width: 120px;
       height: auto;
       border-radius: 50%;
       border: 3px solid white;
       margin-bottom: 15px;
     }
 
-    .sidebar h2 {
-      font-size: 18px;
-      margin-bottom: 5px;
-    }
-
-    .sidebar p {
-      font-size: 14px;
-      margin-bottom: 20px;
-      color: #ccc;
+    /* Sidebar Hover Effect */
+    .sidebar:hover {
+      background: rgba(17, 17, 17, 1); /* Fully opaque on hover */
     }
 
     /* Main Content */
     .main-content {
-      margin-left: 270px; /* Space for sidebar */
+      margin-left: 300px; /* More space to accommodate floating sidebar */
       padding: 20px;
-      width: calc(100% - 270px);
+      width: calc(100% - 320px);
     }
 
     .content {
@@ -66,7 +64,7 @@
 
     /* Language Toggle Buttons */
     .language-toggle {
-      text-align: center;
+      text-align: right;
       margin-bottom: 20px;
     }
 
@@ -94,20 +92,21 @@
     /* Responsive Design */
     @media (max-width: 800px) {
       .sidebar {
-        width: 100px; /* Smaller sidebar for mobile */
+        width: 80px;
+        left: 10px;
         padding: 10px;
       }
 
       .sidebar img {
-        width: 70px;
+        width: 60px;
       }
 
       .sidebar h2, .sidebar p {
-        display: none; /* Hide text in sidebar on small screens */
+        display: none; /* Hide text on smaller screens */
       }
 
       .main-content {
-        margin-left: 120px;
+        margin-left: 100px;
         width: calc(100% - 120px);
       }
     }
@@ -115,10 +114,11 @@
 </head>
 <body>
 
-  <!-- Sidebar with Photo -->
+  <!-- Floating Sidebar -->
   <div class="sidebar">
-    <img src="profile.jpg" alt="Edgar Ortiz-Brizuela"> 
+    <img src="profile.jpg" alt="Edgar Ortiz-Brizuela">
     <h2>Edgar Ortiz-Brizuela</h2>
+    <p>Ph.D. Candidate in Epidemiology</p>
   </div>
 
   <!-- Main Content -->
@@ -147,28 +147,6 @@
         <li><a href="https://github.com/ortizbrizuela">GitHub</a></li>
         <li><a href="https://orcid.org/0000-0001-7169-8459">ORCID profile</a></li>
       </ul>
-
-      <h2>✉️ Connect with Me</h2>
-      <p>Feel free to <a href="mailto:edgar.ortiz-brizuela@mail.mcgill.ca">reach out for collaborations</a>.</p>
-    </div>
-
-    <!-- Spanish Version -->
-    <div class="content hidden" id="content-es">
-      <img src="title.jpg" width="1000" alt="Imagen de Título"/>
-
-      <h1>¡Bienvenido a mi sitio personal de información!</h1>
-
-      <p>Mi nombre es <strong>Edgar Ortiz-Brizuela</strong>, y soy candidato a doctorado (Ph.D.) en Epidemiología en la Universidad McGill. Aquí encontrarás una breve descripción de mi formación 📚, enlaces a mi trabajo ✏️ y formas de contactarme ✉️. ¡Siempre estoy abierto a colaborar!</p>
-
-      <h2>✏️ Enlaces a mi Trabajo</h2>
-      <ul>
-        <li><a href="https://scholar.google.com/citations?hl=es&user=rYaloZcAAAAJ">Google Scholar</a></li>
-        <li><a href="https://github.com/ortizbrizuela">GitHub</a></li>
-        <li><a href="https://orcid.org/0000-0001-7169-8459">Perfil ORCID</a></li>
-      </ul>
-
-      <h2>✉️ Contáctame</h2>
-      <p>No dudes en <a href="mailto:edgar.ortiz-brizuela@mail.mcgill.ca">ponerte en contacto</a> para colaboraciones.</p>
     </div>
 
   </div>
