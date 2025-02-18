@@ -48,7 +48,7 @@
 
     /* Main Content */
     .main-content {
-      margin-left: 300px; /* More space to accommodate floating sidebar */
+      margin-left: 200px; /* More space to accommodate floating sidebar */
       padding: 20px;
       width: calc(100% - 320px);
     }
@@ -56,7 +56,7 @@
     .content {
       background: white;
       padding: 20px;
-      /* max-width: 1000px;*/
+      max-width: 1000px;
       margin: auto;
       border-radius: 10px;
       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
