@@ -48,9 +48,9 @@
 
     /* Main Content */
     .main-content {
-      margin-left: 200px; /* More space to accommodate floating sidebar */
-      padding: 20px;
-      width: calc(100% - 320px);
+    margin-left: 180px;
+    padding: 20px;
+    width: 85%; /* Adjust as needed */
     }
 
     .content {
